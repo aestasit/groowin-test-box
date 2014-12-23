@@ -1,4 +1,4 @@
-  {
+{
   "builders": [
     {
       "type": "virtualbox-iso",
@@ -18,7 +18,8 @@
         "./scripts/microsoft-updates.bat",
         "./scripts/win-updates.ps1",
         "./scripts/openssh.ps1",
-        "./scripts/oracle-cert.cer"
+        "./scripts/oracle-cert.cer",
+        "./scripts/chocolatey.ps1"
       ],
       "vboxmanage": [
         [
@@ -45,9 +46,8 @@
         "./scripts/vm-guest-tools.bat",
         "./scripts/chef.bat",
         "./scripts/vagrant-ssh.bat",
-        "./scripts/compact.bat",
-        "./scripts/chocolatey.bat",
-        "./scripts/chocopacks.bat"
+        "./scripts/enable-rdp.bat",
+        "./scripts/compact.bat"
       ]
     },
     {
