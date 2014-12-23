@@ -47,7 +47,8 @@
         "./scripts/chef.bat",
         "./scripts/vagrant-ssh.bat",
         "./scripts/enable-rdp.bat",
-        "./scripts/compact.bat"
+        "./scripts/compact.bat",
+        "./scripts/chocopacks.bat"
       ]
     },
     {
