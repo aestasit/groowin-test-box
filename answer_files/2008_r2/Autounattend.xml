@@ -237,6 +237,12 @@
                     <Order>30</Order>
                     <RequiresUserInput>true</RequiresUserInput>
                 </SynchronousCommand>
+                <SynchronousCommand wcm:action="add">
+                    <CommandLine>cmd.exe /c a:\chocopacks.bat</CommandLine>
+                    <Description>Install Win SDK via Chocolatey</Description>
+                    <Order>35</Order>
+                    <RequiresUserInput>true</RequiresUserInput>
+                </SynchronousCommand>
                 <!-- WITHOUT WINDOWS UPDATES -->
                 <SynchronousCommand wcm:action="add">
 					<CommandLine>cmd.exe /c C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File a:\openssh.ps1 -AutoStart</CommandLine>
