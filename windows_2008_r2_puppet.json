@@ -2,7 +2,7 @@
   "builders": [
     {
       "type": "virtualbox-iso",
-      "iso_url": "http://download.microsoft.com/download/7/5/E/75EC4E54-5B02-42D6-8879-D8D3A25FBEF7/7601.17514.101119-1850_x64fre_server_eval_en-us-GRMSXEVAL_EN_DVD.iso",
+      "iso_url": "file:///d:/7601.17514.101119-1850_x64fre_server_eval_en-us-GRMSXEVAL_EN_DVD.iso",
       "iso_checksum_type": "md5",
       "iso_checksum": "4263be2cf3c59177c45085c0a7bc6ca5",
       "headless": false,
@@ -19,8 +19,7 @@
         "./scripts/win-updates.ps1",
         "./scripts/openssh.ps1",
         "./scripts/oracle-cert.cer",
-        "./scripts/chocolatey.ps1",
-        "./scripts/chocopacks.bat"
+        "./scripts/vagrant-2008R2.pfx"
       ],
       "vboxmanage": [
         [
